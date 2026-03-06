@@ -138,9 +138,10 @@ Bot is ready!
 - **@discordjs/voice** handles the Discord voice connection and audio playback pipeline
 - **FFmpeg** (via `ffmpeg-static`) transcodes audio to Opus format for Discord
 
-##TODO:
+## TODO:
 | Bug | Proposed Fix |
-| Bot wont play music if a song was added after a music just finished playing | `Investigating` |
+|------|---------|
+| Music wont play if added after a song just finished playing | `Investigating` |
 
 
 ## License
