@@ -287,6 +287,12 @@ client.on(Events.InteractionCreate, async (interaction) => {
 
             if (existingQueue) {
                 existingQueue.songs.push(song);
+
+                // If queue is not currently playing, start playback
+                if (!existingQueue.playing) {
+                    playSong(guild.id);
+                }
+
                 return interaction.editReply(
                     `Added to queue: **${song.title}** [${song.duration}]`,
                 );
