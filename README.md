@@ -1,5 +1,5 @@
 # Private Music Bot
-
+#USE QUEUE CHECK FIX BRANCH FOR NOW
 A Discord music bot that plays YouTube audio in voice channels. Built with discord.js v14, youtubei.js for search, and yt-dlp for audio streaming.
 
 ## Features
