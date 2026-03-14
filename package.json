@@ -6,7 +6,12 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": ["discord", "music", "bot", "youtube"],
+  "keywords": [
+    "discord",
+    "music",
+    "bot",
+    "youtube"
+  ],
   "license": "MIT",
   "type": "commonjs",
   "dependencies": {
